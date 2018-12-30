@@ -120,4 +120,22 @@ legend.onAdd = function() {
     legend.addTo(myMap);
 
 
+// myMap.on('zoomend', function(){
+//     var currentZoom = myMap.getZoom();
+//     if (currentZoom < 6) {
+//         earthquakes.eachLayer(function(layer) {
+//             return layer.markerSize(mag*15000);
+//         });
+//     }
+//     else if (currentZoom < 10 && currentZoom >=6) {
+//         earthquakes.eachLayer(function(layer) {
+//             return layer.markerSize(mag*8000);
+//         });
+//     }
+//     else {
+//         earthquakes.eachLayer(function(layer) {
+//             return layer.markerSize(mag*4000);
+//         });
+//     }
+// })
 
